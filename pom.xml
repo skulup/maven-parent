@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.skulup</groupId>
+    <artifactId>maven-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <url>https://nx.fix.sl/repository/maven-public</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>maven-releases</name>
+            <url>https://nx.fix.sl/repository/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>maven-snapshots</name>
+            <url>https://nx.fix.sl/repository/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <developers>
+        <developer>
+            <id>alphashaw</id>
+            <name>Alpha Umaru Shaw</name>
+            <email>shawalpha@gmail.com</email>
+            <organization>Skulup Ltd</organization>
+        </developer>
+    </developers>
+
+    <contributors>
+        <contributor>
+            <name>Alpha Umaru Shaw</name>
+            <email>shawalpha@gmail.com</email>
+            <roles>
+                <role>Admin</role>
+            </roles>
+        </contributor>
+    </contributors>
+
+</project>

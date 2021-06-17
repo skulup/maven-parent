@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="konky_app">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/projects/sources/skulup/apps/business/konky/konky_app" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
